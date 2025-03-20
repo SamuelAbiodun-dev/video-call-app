@@ -24,7 +24,7 @@ const myMeeting = async (element) => {
       sharedLinks: [
         {
           name: "Copy Link",
-          url: `http://localhost:5173/room/${roomId}`,
+          url: `${window.location.origin}/room/${roomId}`,
         },
       ],
       scenario: {
